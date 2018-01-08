@@ -18,7 +18,7 @@
 .topnav a {
   float: right;
   display: block;
-  color: #00B4F1;
+  color: #f18b00;
   text-align: center;
   padding-bottom: 12px;
   padding-top: 12px;
@@ -31,7 +31,7 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rgb(200, 203, 203);
+  background-color: rgba(255, 196, 0, 0.76);
   color: white;
   
 }
@@ -62,7 +62,7 @@ div.foo{
   font-size: 6em;
   margin: 0.2em;
   position: relative;
-  color: #00B4F1;
+  color: #f55c2e;
   transform-style: preserve-3d;
   perspective: 400;
   z-index: 1;
@@ -120,7 +120,7 @@ div.foo{
   height:2100px;
   width:100%;
   z-index:999;
-  background-color:rgb(200, 203, 203);
+  background-color:rgba(200, 203, 203, 0.38);
   font-family:monospace;
   position: absolute;
 	}
@@ -194,6 +194,7 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
   text-align: center;
   font-size: 18px;
   font-family: 'Andika';
+  color: #ad211c;
 }
 
 /**resume button*/
@@ -208,7 +209,7 @@ input.MyButton {
   font-weight: bold;
   font-size: 20px;
   font-family: 'Andika';
-  background: #3874eb;
+  background: rgba(255, 196, 0, 0.76);
   color: #fff;
   border: 1px solid #4c80e8;
   border-radius: 10px;
@@ -216,7 +217,7 @@ input.MyButton {
  
 }
 input.MyButton:hover {
-  color: #00B4F1;
+  color: #fa7935;
   background: #fff;
   border: 1px solid #fff;
 }
@@ -244,7 +245,7 @@ input.YTButton {
   margin-bottom: 2%;
   text-align: center;
   font-size: 4em;
-  color:white;
+  color:#ad211c;
   font-family: 'Amaranth';
 }
 /*description block*/
@@ -278,7 +279,7 @@ input.YTButton {
 
 /*Portfolio page title*/
 #project{
-  color: white;
+  color: #ad211c;
   font-size: 65px;
   text-align: center;
   margin-left: 7%;
@@ -315,7 +316,7 @@ input.YTButton {
   height:1000px;
   width:100%;
   z-index:999;
-  background-color:rgb(200, 203, 203);
+  background-color:rgba(200, 203, 203, 0.38);
   font-family:monospace;
   position: absolute;
 }
@@ -346,9 +347,10 @@ input.YTButton {
   position: absolute;
   top: 0;
   left: 50%;
-  color:#fafafa;
+  color:#f14a00;
   font-size: 20px;
-  background-color:rgba(0, 180, 241, 0.63);
+  font-family: 'Andika';
+  background-color:rgba(255, 255, 0, 0.56);
   width: 360px;
   height: 270px;
   line-height:100px;
@@ -393,8 +395,9 @@ img {
   position: absolute;
   top: 0;
   left: 50%;
-  color:#fafafa;
-  background-color:rgba(0, 180, 241, 0.63);
+  color:#f14a00;
+  font-family: 'Andika';
+  background-color:rgba(255, 255, 0, 0.56);
   width: 157px;
   height: 270px;
   line-height:100px;
@@ -435,8 +438,9 @@ img {
 }
 .text3 {
   position: absolute;
-  color:#fafafa;
-  background-color:rgba(0, 180, 241, 0.63);
+  color:#f14a00;
+  font-family: 'Andika';
+  background-color:rgba(255, 255, 0, 0.56);
   width: 250px;
   height: 270px;
   line-height:100px;
@@ -477,9 +481,10 @@ img {
 .text4 {
   position: absolute;
   margin-top: 70.5%;
-  color:#fafafa;
+  color:#f14a00;
   font-size: 20px;
-  background-color:rgba(0, 180, 241, 0.63);
+  font-family: 'Andika';
+  background-color:rgba(255, 255, 0, 0.56);
   width: 273px;
   height: 252px;
   line-height:100px;
@@ -521,8 +526,9 @@ img {
   position: absolute;
   margin-left: 35%;
   margin-top: 90.5%;
-  color:#fafafa;
-  background-color:rgba(0, 180, 241, 0.63);
+  color:#f14a00;
+  font-family: 'Andika';
+  background-color:rgba(255, 255, 0, 0.56);
   width: 336px;
   height: 252px;
   line-height:100px;
@@ -564,8 +570,9 @@ img {
   position: absolute;
   margin-left: 78.5%;
   margin-top: 90.8%;
-  color:#fafafa;
-  background-color:rgba(0, 180, 241, 0.63);
+  color:#f14a00;
+  font-family: 'Andika';
+  background-color:rgba(255, 255, 0, 0.56);
   width: 336px;
   height: 252px;
   line-height:100px;
@@ -590,6 +597,7 @@ img {
   padding-top: 5%;
   padding-bottom: 5%;
   font-family: 'Amaranth';
+  color: #ad211c;
 }
 /*contact info*/
 .contactinfo{
@@ -627,7 +635,7 @@ td {
   height:680px;
   width:100%;
   z-index:999;
-  background-color:rgb(200, 203, 203);
+  background-color:rgba(200, 203, 203, 0.38);
   font-family:monospace;
   position: absolute;
 }
