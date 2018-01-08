@@ -1,0 +1,136 @@
+<!doctype html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello Adriana</title>
+    <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Andika' rel='stylesheet'>
+    <link rel="Stylesheet" href="style.css" type="text/css">
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    
+  
+  <!--javascript-->
+  <script language="JavaScript" type="text/javascript">
+
+    $(document).ready(function(){
+      $('a[href^="myPage.html#about"]').on('click',function (e) {
+        e.preventDefault();
+
+        var target = this.hash;
+        var $target = $(target);
+
+        $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+          window.location.hash = target;
+        });
+      });
+    });
+    
+//     ===== Scroll to Top ==== 
+    $(window).scroll(function() {
+      if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+      } else {
+        $('#return-to-top').fadeOut(100);   // Else fade out the arrow
+      }
+    });
+    $('#return-to-top').click(function() {      // When arrow is clicked
+      $('html,body').animate({
+        scrollTop : 0                       // Scroll to top of body
+      }, 500);
+    });
+    
+  </script>
+</head>
+  
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    
+      <!--Menu-->
+      <div class="topnav" id="myTopnav">
+        <a href="contact.html">Contact</a>
+        <a href="profolio.html">Profolio</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html">Adriana Huang.</a>
+      </div>
+    
+  
+
+  <div id="block">
+  <!--hello title-->
+    <div class="toppic"><img class="myphoto" src="MY%20PIC.png"></div>
+    <div class="foo">
+      <span class="letter" data-letter="H">H</span>
+      <span class="letter" data-letter="e">e</span>
+      <span class="letter" data-letter="l">l</span>
+      <span class="letter" data-letter="l">l</span>
+      <span class="letter" data-letter="o">o</span>
+      <span class="letter" data-letter="!">!</span><br>
+      <span class="letter" data-letter="I">I</span>
+      <span class="letter" data-letter="'">'</span>
+      <span class="letter" data-letter="m">m</span>
+      <span class="letter" data-letter=" "> </span>
+      <span class="letter" data-letter="A">A</span>
+      <span class="letter" data-letter="d">d</span>
+      <span class="letter" data-letter="r">r</span>
+      <span class="letter" data-letter="i">i</span>
+      <span class="letter" data-letter="a">a</span>
+      <span class="letter" data-letter="n">n</span>
+      <span class="letter" data-letter="a">a</span>
+      <span class="letter" data-letter=".">.</span>
+    </div>
+    <br>
+    
+    <!--description-->
+    <div class="me">Web Designer || UI/UX Designer || UC Berkeley Student</div><br>
+    
+    <div class="mbutton">
+    <form class="button">
+      <input class="MyButton" type="button" value="Resume" onclick="window.location.href='resume.html';" />
+    </form>
+    </div>
+    
+    <h3><a href="index.html#about"><i class="icon-arrow-down"></i></a></h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <!--about section-->
+    <h2 id = "about">About</h2>
+      <div id="aboutme">
+        <div class= "description">Hi I'm a junior studying Cognitive Science at UC Berkeley.<br>I grew up in Taiwan and came to the United States for college.<br>I'm facinated by anything related to brain and mental health! 
+          <br><br>Outside of class, I like traveling and singing. Over the winter,<br>I've traveled to 9 states in 9 days during road trip. A hobby of<br>mine is to collect postcards - keepsakes of my own travel as well<br>as postcards my friends have sent me.  I'm also the vocalist of <br>ihouse band at Berkeley. We did a lot of rock and pop songs<br>cover. You can check out my performance here:<br><br>
+        <div class="video"><iframe width="588" height="330" src="https://www.youtube.com/embed/7xoQzSOSmQk" frameborder="0" allowfullscreen></iframe><br> 
+          <div class="mbutton">
+            <form action="https://www.youtube.com/watch?v=knDnW1Y2IqA">
+              <a href="https://www.youtube.com/watch?v=knDnW1Y2IqA"><input class="YTButton" type="submit" value="Find me on YouTube" /></a>
+            </form>
+          </div>
+          <br>
+          <a href="https://www.linkedin.com/in/chiaanhuang"><img src="linked%20in.svg" alt="linkedin" width= "3%" height = "auto" /></a>
+          <a href="https://www.facebook.com/">
+            <img src="fb.png" alt="facebook" width="3%" height="auto" /></a>
+        </div>
+        </div>
+      </div>
+    
+    <!-- Return to Top -->
+    <a href="index.html" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
+
+    <!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    </div>
+  </body>
+</html>
+  
+  
