@@ -188,8 +188,7 @@ div.foo{
 	}
 
 
-/* arrow down*/
-body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
+
 
 #return-to-top {
   position: fixed;
@@ -331,12 +330,14 @@ input.YTButton {
 /*    align-items:center;*/
     font-size: 18px;
     display: inline-block;
-    padding: 2em; 
-    border: 5px solid white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
     color: #4b4747;
     background-color: rgba(255, 255, 255, 0.71);
     border-radius: 20px;
-    width: 750px;
+    width: 900px;
     font-family: 'Andika';
     }
 
