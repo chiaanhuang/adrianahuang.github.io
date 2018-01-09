@@ -190,11 +190,23 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
 
 
 /*web designer*/
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
 .me{
   text-align: center;
   font-size: 18px;
   font-family: 'Andika';
   color: #ad211c;
+  border-right: .1em solid black;
+  width: 16.5em; 
+  width: 45ch;
+  margin: 0.5em 27em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typing 2s steps(21, end),
+    blink-caret .5s step-end infinite alternate;
 }
 
 /**resume button*/
@@ -211,7 +223,6 @@ input.MyButton {
   font-family: 'Andika';
   background: rgba(255, 196, 0, 0.76);
   color: #fff;
-  border: 1px solid #4c80e8;
   border-radius: 10px;
 /*  position: absolute;*/
  
@@ -324,7 +335,7 @@ input.YTButton {
 /*anna hu*/
 .annahu {
   margin-left: 50%;
-  margin-top: 37%;
+  margin-top: 38%;
   position:absolute;
 /*  top: 50%;*/
   left: 50%;
@@ -352,7 +363,7 @@ input.YTButton {
   font-family: 'Andika';
   background-color:rgba(255, 255, 0, 0.56);
   width: 360px;
-  height: 270px;
+  height: 273px;
   line-height:100px;
   text-align: center;
   z-index: 10;
@@ -373,7 +384,7 @@ img {
 /*feo*/
 .feo{ 
   position:absolute;
-  top: 39.5%;
+  top: 40%;
   left: 45%;
   width: 157px;
   height: 270px;
@@ -418,7 +429,7 @@ img {
 .feocase{
   margin-left: 11%;
   position:absolute;
-  top: 39.5%;
+  top: 40%;
   left: 50%;
   width: 250px;
   height: 270px;
