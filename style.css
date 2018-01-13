@@ -56,6 +56,18 @@ div.foo{
   margin: 0 auto;
   text-align: center;
 }
+.letter1{
+  display: inline-block;
+  font-weight: 500;
+  font-size: 6em;
+  margin: 0.2em;
+  position: relative;
+  color: #fff;
+  transform-style: preserve-3d;
+  perspective: 400;
+  z-index: 1;
+  font-family: 'Amaranth'; 
+}
 .letter{
   display: inline-block;
   font-weight: 500;
@@ -115,9 +127,57 @@ div.foo{
     skew(0deg,22deg);
 }
 
+
+.letter1:before, .letter1:after{
+  position:absolute;
+  content: attr(data-letter);
+  transform-origin: top left;
+  top:0;
+  left:0;
+}
+.letter1, .letter1:before, .letter1:after{
+  transition: all 0.3s ease-in-out;
+}
+.letter1:before{
+  color: #f14a00;
+  text-shadow: 
+    -1px 0px 1px rgba(255,255,255,.8),
+    1px 0px 1px rgba(0,0,0,.8);
+  z-index: 3;
+  transform:
+    rotateX(0deg)
+    rotateY(-15deg)
+    rotateZ(0deg);
+}
+.letter1:after{
+  color: rgba(0,0,0,.11);
+  z-index:2;
+  transform:
+    scale(1.08,1)
+    rotateX(0deg)
+    rotateY(0deg)
+    rotateZ(0deg)
+    skew(0deg,1deg);
+}
+.letter1:hover:before{
+  color: #f14a00;
+  transform:
+    rotateX(0deg)
+    rotateY(-40deg)
+    rotateZ(0deg);
+}
+.letter1:hover:after{
+  transform:
+    scale(1.08,1)
+    rotateX(0deg)
+    rotateY(40deg)
+    rotateZ(0deg)
+    skew(0deg,22deg);
+}
+
 /*background grey*/
 #block{
-  height:2100px;
+  height:840px;
   width:100%;
   z-index:999;
   background-color:rgba(200, 203, 203, 0.38);
@@ -194,24 +254,31 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
 @-webkit-keyframes typing { from { width: 0; } }
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
-.me{
-  text-align: center;
-  font-size: 18px;
-  font-family: 'Andika';
-  color: #ad211c;
-  border-right: .1em solid black;
-  width: 16.5em; 
-  width: 45ch;
-  margin: 0.5em 27em;
-  white-space: nowrap;
-  overflow: hidden;
-  -webkit-animation: typing 2s steps(21, end),
-    blink-caret .5s step-end infinite alternate;
+
+
+/*about*/
+
+#blocka{
+  height:1100px;
+  width:100%;
+  z-index:999;
+  background-color:rgba(200, 203, 203, 0.38);
+  font-family:monospace;
+  position: absolute;
 }
+
+.me {
+  text-align: center;
+  color:#ad211c;
+  padding-top:1em;
+  padding-bottom: 1em;
+  font-family: 'Andika';
+}
+
+* { color:#ad211c; text-decoration: none;}
 
 /**resume button*/
 .mbutton{
-  margin-top: 1%;
   text-align: center;
 }
 input.MyButton {
@@ -224,7 +291,6 @@ input.MyButton {
   background: rgba(255, 196, 0, 0.76);
   color: #fff;
   border-radius: 10px;
-/*  position: absolute;*/
  
 }
 input.MyButton:hover {
@@ -233,53 +299,67 @@ input.MyButton:hover {
   border: 1px solid #fff;
 }
 
-/*YouTube button*/
-input.YTButton {
-  width: 200px;
-  padding: 10px;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 15px;
-  background: #d4373d;
-  color: #fff;
-  border: 1px solid #d4373d;
-  border-radius: 10px;
-  font-family: 'Andika';
-}
-
 
 
 
 /*description about me*/
 #about{
-  margin-top: 20%;
-  margin-bottom: 2%;
+  margin-bottom: 0.5em;
   text-align: center;
   font-size: 4em;
   color:#ad211c;
   font-family: 'Amaranth';
 }
-/*description block*/
-#aboutme{
-  text-align: center;
-  display: block;
+
+/*pic*/
+
+.profile{
+ 
 }
 
-  div.description{
-/*    align-items:center;*/
-    font-size: 18px;
-    display: inline-block;
-    padding: 2em; 
-    border: 5px solid white;
-    color: #4b4747;
-    background-color: rgba(255, 255, 255, 0.71);
-    border-radius: 20px;
-    width: 750px;
-    font-family: 'Andika';
-    }
-
-
+.left{
+  margin-top: 2%;
+  margin-left: 17%;
+  display: inline-block;
+  float: left;
+  width: 300px;
   
+}
+
+h2{
+  font-family: "Amaranth"
+}
+
+/*description block*/
+.description{
+    font-size: 18px;
+    color: #4b4747;
+    font-family: 'Andika';
+    margin-left:50%;
+  margin-top: 3em;
+  }
+
+
+.icon{
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+
+
+  div.video{
+    margin-left: 50%;
+    margin-top: 1em;
+  }
+/*
+#aboutme{
+  text-align: left;
+  display: inline-block;
+  float: left;
+}
+*/
+
 	a{
     font-family:'Andika';
 		font-size:20px;
@@ -300,14 +380,6 @@ input.YTButton {
   font-family: 'Amaranth';
 }
 
-
-
-
-/*
-.projects{
-  text-align: center;
-}
-*/
 
 
 
