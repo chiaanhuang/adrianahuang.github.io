@@ -45,10 +45,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:900);
 *, *:before, *:after{
   box-sizing:border-box;
-}
-body{
-  font-family: 'Andika';
-}
+
 
 /*hello title*/
 div.foo{
@@ -233,7 +230,8 @@ body {
   background-image: url("white-2398946_1920.jpg");
   background-size: cover;
   background-repeat: repeat;
-  font-family: 'Open Sans', sans-serif;}
+  font-family: 'Andika';
+}
 
 h3{
   font-size: 30px; 
