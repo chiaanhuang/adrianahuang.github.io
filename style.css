@@ -278,13 +278,13 @@ h3 i{color: #444;}
 
 .me {
   text-align: center;
-  color:#ad211c;
+  color:#000000;
   padding-top:1em;
   padding-bottom: 1em;
   font-family: 'Andika';
 }
 
-* { color:#ad211c; text-decoration: none;}
+* { color:#000000; text-decoration: none;}
 
 /**resume button*/
 .mbutton{
