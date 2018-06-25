@@ -297,13 +297,14 @@ input.MyButton {
   font-weight: bold;
   font-size: 20px;
   font-family: 'Andika';
-  background: rgba(0, 0, 0, 0.76);
+  color: #e65a5a;
+  background: #fff;
   border-radius: 10px;
  
 }
 input.MyButton:hover {
-  color: #e65a5a;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.76);
+  color: #fff;
   border: 1px solid #fff;
 }
 
