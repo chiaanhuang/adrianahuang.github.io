@@ -45,7 +45,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:900);
 *, *:before, *:after{
   box-sizing:border-box;
-
+}
 body{
   font-family: 'Andika';
 }
@@ -180,9 +180,7 @@ div.foo{
   height:840px;
   width:100%;
   z-index:999;
-  background-image: url(white-2398946_1920.jpg);
-  background-size: cover;
-  background-repeat: repeat;
+  background-color:rgba(200, 203, 203, 0.38);
   font-family:monospace;
   position: absolute;
 	}
@@ -231,16 +229,7 @@ div.foo{
 
 
 /* Extra Things */
-
-
-	
-h3{
-  font-size: 30px; 
-  font-weight: 400;
-  text-align: center;
-  margin-top: 50px;}
-
-h3 i{color: #444;}
+body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
 
 /*portfile photo*/
 .toppic{
@@ -270,9 +259,7 @@ h3 i{color: #444;}
   height:1100px;
   width:100%;
   z-index:999;
-  background-image: url(white-2398946_1920.jpg);
-  background-size: cover;
-  background-repeat: repeat;
+  background-color:rgba(200, 203, 203, 0.38);
   font-family:monospace;
   position: absolute;
 }
@@ -409,9 +396,7 @@ h2{
   height:1000px;
   width:100%;
   z-index:999;
-  background-image: url(white-2398946_1920.jpg);
-  background-size: cover;
-  background-repeat: repeat;
+  background-color:rgba(200, 203, 203, 0.38);
   font-family:monospace;
   position: absolute;
 }
@@ -730,9 +715,7 @@ td {
   height:680px;
   width:100%;
   z-index:999;
-  background-image: url(white-2398946_1920.jpg);
-  background-size: cover;
-  background-repeat: repeat;
+  background-color:rgba(200, 203, 203, 0.38);
   font-family:monospace;
   position: absolute;
 }
@@ -759,9 +742,7 @@ td {
   height:1400px;
   width:100%;
   z-index:999;
-  background-image: url(white-2398946_1920.jpg);
-  background-size: cover;
-  background-repeat: repeat;
+  background-color:rgb(200, 203, 203);
   font-family:monospace;
   position: absolute;
 }
@@ -781,4 +762,3 @@ td {
     font-size: 150px;
   }
 }
-
