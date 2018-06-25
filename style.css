@@ -1,11 +1,4 @@
 
-body {
-  background-image: url(white-2398946_1920.jpg);
-  background-size: cover;
-  background-repeat: repeat;
-  font-family: 'Andika';
-}
-
 .topnav {
   background-color: #fffefe;
   overflow: hidden;
@@ -235,6 +228,13 @@ div.foo{
 /* Extra Things */
 
 
+body {
+  background-image: url(white-2398946_1920.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  font-family: 'Andika';
+}
+	
 h3{
   font-size: 30px; 
   font-weight: 400;
