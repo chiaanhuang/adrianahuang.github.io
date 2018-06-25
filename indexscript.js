@@ -1,11 +1,10 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120228266-1"></script>
-    <script>
+      
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-120228266-1');
-    </script>
 
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +17,7 @@
       <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
     
-    <script language="JavaScript" type="text/javascript">
+    <!-- <script language="JavaScript" type="text/javascript"> -->
 
       $(document).ready(function(){
         $('a[href^="myPage.html#about"]').on('click',function (e) {
@@ -108,4 +107,3 @@
         document.body.appendChild(css);
       };
     
-  </script>
