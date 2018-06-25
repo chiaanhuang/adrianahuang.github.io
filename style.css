@@ -315,7 +315,7 @@ input.MyButton:hover {
   margin-bottom: 0.5em;
   text-align: center;
   font-size: 4em;
-  color:#ad211c;
+  color:#e65a5a;
   font-family: 'Amaranth';
 }
 
@@ -378,7 +378,7 @@ h2{
 
 /*Portfolio page title*/
 #project{
-  color: #ad211c;
+  color: #e65a5a;
   font-size: 65px;
   text-align: center;
   margin-left: 7%;
@@ -690,7 +690,7 @@ img {
   padding-top: 5%;
   padding-bottom: 5%;
   font-family: 'Amaranth';
-  color: #ad211c;
+  color: #e65a5a;
 }
 /*contact info*/
 .contactinfo{
