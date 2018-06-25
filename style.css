@@ -180,7 +180,9 @@ div.foo{
   height:840px;
   width:100%;
   z-index:999;
-  background-color:rgba(200, 203, 203, 0.38);
+  background-image: url(white-2398946_1920.jpg);
+  background-size: cover;
+  background-repeat: repeat;
   font-family:monospace;
   position: absolute;
 	}
@@ -231,9 +233,6 @@ div.foo{
 /* Extra Things */
 
 
-body {
-  color: #a8a6a6;
-}
 	
 h3{
   font-size: 30px; 
@@ -271,7 +270,9 @@ h3 i{color: #444;}
   height:1100px;
   width:100%;
   z-index:999;
-  background-color:rgba(200, 203, 203, 0.38);
+  background-image: url(white-2398946_1920.jpg);
+  background-size: cover;
+  background-repeat: repeat;
   font-family:monospace;
   position: absolute;
 }
@@ -408,7 +409,9 @@ h2{
   height:1000px;
   width:100%;
   z-index:999;
-  background-color:rgba(200, 203, 203, 0.38);
+  background-image: url(white-2398946_1920.jpg);
+  background-size: cover;
+  background-repeat: repeat;
   font-family:monospace;
   position: absolute;
 }
@@ -727,7 +730,9 @@ td {
   height:680px;
   width:100%;
   z-index:999;
-  background-color:rgba(200, 203, 203, 0.38);
+  background-image: url(white-2398946_1920.jpg);
+  background-size: cover;
+  background-repeat: repeat;
   font-family:monospace;
   position: absolute;
 }
@@ -754,7 +759,9 @@ td {
   height:1400px;
   width:100%;
   z-index:999;
-  background-color:rgb(200, 203, 203);
+  background-image: url(white-2398946_1920.jpg);
+  background-size: cover;
+  background-repeat: repeat;
   font-family:monospace;
   position: absolute;
 }
