@@ -46,6 +46,9 @@
 *, *:before, *:after{
   box-sizing:border-box;
 
+body{
+  font-family: 'Andika';
+}
 
 /*hello title*/
 div.foo{
@@ -232,7 +235,6 @@ body {
   background-image: url(white-2398946_1920.jpg);
   background-size: cover;
   background-repeat: repeat;
-  font-family: 'Andika';
 }
 	
 h3{
