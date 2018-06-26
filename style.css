@@ -112,7 +112,7 @@ div.foo{
     skew(0deg,1deg);
 }
 .letter:hover:before{
-  color: #e65a5a;
+  color: #fffff;
   transform:
     rotateX(0deg)
     rotateY(-40deg)
