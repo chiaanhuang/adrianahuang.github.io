@@ -139,7 +139,7 @@ div.foo{
   transition: all 0.3s ease-in-out;
 }
 .letter1:before{
-  color: #fffff;
+  color: #f7cbcb;
   text-shadow: 
     -1px 0px 1px rgba(255,255,255,.8),
     1px 0px 1px rgba(0,0,0,.8);
